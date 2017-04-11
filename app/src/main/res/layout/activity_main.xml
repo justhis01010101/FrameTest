@@ -17,19 +17,19 @@
             android:id="@+id/but1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Frist"
+            android:text="저즈디즈"
             />
         <Button
             android:id="@+id/but2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Second"/>
+            android:text="허승"/>
 
         <Button
             android:id="@+id/but3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Third" />
+            android:text="출구서" />
 
     </LinearLayout>
 
@@ -43,22 +43,36 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="#eaa2a2"></LinearLayout>
+            android:background="#eaa2a2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/justhis"/>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/line2"
-            android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="#e9bef2"></LinearLayout>
+            android:background="#e9bef2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/justhis2"/>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/line3"
-            android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="#c9e6ea"></LinearLayout>
+            android:background="#c9e6ea">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exo"/>
+        </LinearLayout>
+
     </FrameLayout>
 </LinearLayout>
